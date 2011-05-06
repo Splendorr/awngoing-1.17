@@ -1,15 +1,14 @@
 <div class="blog">
   <div class="snip">
-    {title-for SNIP}
+    <div class="blogtitle">
+      {title-for SNIP, h2}
+    </div>
     {SNIP}
   </div>
-  <div id="sidebar">
+  <div id="infosidebar">
     <div id="details">
       {details-for SNIP}
     </div>
   </div>
 </div>
-<br />
 <hr class="separator" />
-<br />
-<br />

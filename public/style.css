@@ -34,6 +34,17 @@ pre {
   margin-left: 1em;
   text-align: right; }
 
+#infosidebar {
+  width: 240px;
+  float: right;
+  margin-left: 1em;
+  text-align: right; }
+
+.separator {
+  margin-top: 1em;
+  margin-bottom: 4em;
+  border-top: solid black 0.25em; }
+
 .title {
   font-size: 2em; }
 
@@ -69,3 +80,12 @@ a {
     margin-left: 2em;
     margin-bottom: 1em;
     padding: 1em; }
+
+#footer {
+  padding-top: 8em; }
+
+.blog {
+  color: inherit; }
+  .blog .blogtitle {
+    border-left: double black 1em;
+    padding-left: 1em; }

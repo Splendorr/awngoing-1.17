@@ -7,7 +7,7 @@ class LinkToCurrentSnip < Dynasnip
   |
 
   def handle(*args)
-    link_to app.request.snip_name
+    link_to app.request.snip.page_title, app.request.snip_name
   end
 
   self

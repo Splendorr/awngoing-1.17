@@ -11,10 +11,14 @@
         {sidebar}
       #controls
         %a{:href => "/"} re turn to thicker air
-        &nbsp — you are viewing: {link_to_current_snip}
+        %br
+        You Have Alighted Upon:&nbsp {link_to_current_snip}
+        
       %br
       #content
         {current_snip}
+        #footer
+          = "({details-for #{app.request.snip_name}})"
     :erb
       <script src="//static.getclicky.com/js" type="text/javascript"></script>
       <script type="text/javascript">try{ clicky.init(66416225); }catch(e){}</script>
