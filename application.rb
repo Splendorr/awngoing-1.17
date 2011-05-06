@@ -28,7 +28,7 @@ Application.configure do |config|
 
   # This is a dumping ground of ideas at the moment
   #
-  # config.soups << "soups/extras"
+  config.soups << "soups/extras"
   
   # Splendorr added these soups:
   config.soups << "soups/awn"
