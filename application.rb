@@ -32,6 +32,7 @@ Application.configure do |config|
   
   # Splendorr added these soups:
   soups << "soups/awn"
+  soups << "soups/dynasnips"
 
   # The snip to render on requests to "/". This defaults to "start"
   #
