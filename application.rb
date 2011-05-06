@@ -29,6 +29,9 @@ Application.configure do |config|
   # This is a dumping ground of ideas at the moment
   #
   # config.soups << "soups/extras"
+  
+  # Splendorr added these soups:
+  soups << "soups/awn"
 
   # The snip to render on requests to "/". This defaults to "start"
   #
