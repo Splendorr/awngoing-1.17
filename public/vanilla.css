@@ -1,0 +1,19 @@
+#controls {
+  padding-left: 0;
+}
+
+#controls li {
+  background: #eee;
+  display: inline;
+  padding: 0.2em 0.5em;
+}
+
+pre {
+  margin-left: 1em;
+  background-color: #ddd;
+  padding: 1em;
+}
+
+.malformed_snip_inclusion {
+  background-color: rgba(180,0,0,0.2);
+}
