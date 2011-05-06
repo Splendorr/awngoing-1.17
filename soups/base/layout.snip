@@ -1,18 +1,23 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <title>{page_title}</title>
-  <link rel="stylesheet" href="/vanilla.css" type="text/css" media="screen" title="no title" charset="utf-8">
-</head>
-<body>
-  <ul id="controls">
-    <li><a href="/">home</a></li>
-    <li>{link_to index}</li>
-    <li>you are viewing: {link_to_current_snip}</li>
-  </ul>
-  <div id="content">
-    {current_snip}
-  </div>
-</body>
-</html>
+!!! 5
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %title {current_snip title}
+    %link{:href => "style.css", :type => "text/css", :rel => "stylesheet", :media => "screen"}
+
+  %body
+    #container
+      #sidebar
+        {sidebar}
+      #controls
+        %a{:href => "/"} re turn to thicker air
+        &nbsp — you are viewing: {link_to_current_snip}
+      %br
+      #content
+        {current_snip}
+    :erb
+      <script src="//static.getclicky.com/js" type="text/javascript"></script>
+      <script type="text/javascript">try{ clicky.init(66416225); }catch(e){}</script>
+      <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66416225ns.gif" /></p></noscript>
+
+:render_as: Haml
