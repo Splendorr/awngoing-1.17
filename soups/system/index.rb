@@ -10,3 +10,5 @@ class Index < Dynasnip
 
   self
 end
+
+:page_title: They Said Indicate
