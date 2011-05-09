@@ -2,8 +2,122 @@
 /* ! Layout for desktop version
 /* ==============================
 
+html
+  border: 4px solid black
+
 body
- 
+  font-size: 12px
+  font-family: 'Helvetica Neue', Arial, sans-serif
+  //background-image: url(speckle.png)
+  line-height: 1.4em
+  //border: 4px solid black
+  padding-bottom: 24em
+  text-align: left
+  
+h1, h2, h3, h4, h5, h6
+  line-height: 1.2em
+  margin-top: 1em
+
+p
+  font-size: 1.1em
+
+pre
+  font-family: inherit
+  
+#controls
+  margin-top: 2em
+  margin-bottom: 4em
+  
+#alighted
+  float: right
+  
+#sidebar
+  //width: 240px
+  //height: 400px
+  //background-color: black
+  //color: #CECECE
+  //float: right
+  //display: block
+  //margin-left: 1em
+  text-align: right
+  
+.separator
+  margin-top: 1em
+  margin-bottom: 4em
+  border-top: solid black 0.25em
+  
+.title
+  //width: 60%
+  //position: relative
+  //background-color: #012479
+  //padding: 1em 1em .5em 1em
+  //margin-bottom: 1em
+  //top: 1em
+  //left: 4em
+  font-size: 2em
+  
+a
+  text-decoration: underline
+  padding: 4px 3px 2px 3px
+  margin: -4px -3px -2px -3px
+  &:link, &:visited
+    color: #220f4e
+    background-color: hsla(280, 62%, 50%, 0.12)
+    text-shadow: 1px 1px 3px #FFF 
+    // FF3.5+, Opera 9+, Saf1+, Chrome
+
+  &:hover, &:focus
+    color: white
+    background-color: #220f4e
+    
+#content
+  //width: 600px
+  padding-left: 2em
+  color: #2e2e2e
+  //font-size: 1.25em
+
+
+  p
+    margin-top: 1em
+    //font-size: 1.25em
+    //line-height: 1.5em
+
+  blockquote
+    //color: #015406
+    background-color: #f9f9f9
+    //border-top: 1px solid #ccc
+    //border-bottom: 1px solid #ccc
+    margin-top: 1em
+    margin-left: 2em
+    margin-bottom: 1em
+    padding: 1em
+
+.blog
+  color: inherit
+
+  .blogtitle
+    //background-color: black
+    //color: white
+    //width: auto
+    border-left: double grey 1em
+    padding-left: 1em
+    
+  #details
+    margin-top: 2em
+    padding: 0.5em
+    border: solid black 1px
+    
+.footnote
+  font-size: .9em
+  background-color: #f9f9f9
+  
+.sidenote
+  float: right
+  width: 13.45%
+  background-color: #f9f9f9
+    
+#footer
+  padding-top: 8em
 
 /* =============================
 /* ! Layout for mobile version
@@ -11,6 +125,13 @@ body
 
 @media handheld, only screen and (max-width: 767px)
   body
+
+  #content
+    padding-left: 0em
+    
+    blockquote
+      margin-left: 0em
+
 
 /* ==========================================
 /* ! Provide higher res assets for iPhone 4
