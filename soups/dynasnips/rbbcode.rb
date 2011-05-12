@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rbbcode'
+include Rbbcode::Parser
 
 module Vanilla::Renderers
   class Rbbcode < Base

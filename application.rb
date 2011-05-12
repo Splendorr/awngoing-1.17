@@ -46,7 +46,7 @@ Application.configure do |config|
   #   :awesome => "My::Custom::RendererClass"
   # }
 
-  config.renderers = {
-  :rbbcode => "Vanilla::Renderers::Rbbcode"
-  }
+  #config.renderers = {
+  #:rbbcode => "Vanilla::Renderers::Rbbcode"
+  #}
 end
