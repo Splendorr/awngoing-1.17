@@ -79,8 +79,8 @@ pre {
 
 a {
   text-decoration: underline;
-  padding: 4px 3px 2px 3px;
-  margin: -4px -3px -2px -3px; }
+  padding: 1px 3px 2px 3px;
+  margin: -1px -3px -2px -3px; }
   a:link, a:visited {
     color: #220f4e;
     background-color: rgba(154, 48, 207, 0.12);
@@ -106,12 +106,13 @@ a {
   .blog .blogtitle {
     border-left: double grey 1em;
     padding-left: 1em; }
-  .blog #details {
-    margin-top: 2em;
-    margin-bottom: 4em;
-    padding: 0.5em;
-    border: solid black 1px;
-    border-bottom: solid black 0.25em; }
+
+#details {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  padding: 0.5em;
+  border: solid grey 1px;
+  border-bottom: solid grey 0.25em; }
 
 .footnote {
   font-size: 0.9em;
@@ -123,7 +124,24 @@ a {
   background-color: #f9f9f9; }
 
 #footer {
-  padding-top: 8em; }
+  padding-top: 8em;
+  padding-bottom: 2em; }
+
+#thicks {
+  padding-top: 2em;
+  text-align: center; }
+  #thicks a {
+    text-decoration: none;
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em; }
+    #thicks a:link, #thicks a:visited {
+      color: #220f4e;
+      background-color: rgba(154, 48, 207, 0.12);
+      text-shadow: 1px 1px 3px white; }
+    #thicks a:hover, #thicks a:focus {
+      color: white;
+      background-color: #220f4e; }
 
 /* ============================= */
 /* ! Layout for mobile version */

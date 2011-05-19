@@ -23,16 +23,21 @@
             %a{:href => "/"} &nbsp re turn to thicker air
             #alighted
               You Have Alighted Upon:&nbsp {link_to_current_snip}
-          #content
-            {current_snip}
-          #details
+        .fourcol.last
+      .row
+        #content
+          {current_snip}
+      .row
+        .sevencol
+          #footer
             = "({details-for #{app.request.snip_name}})"
+        .fourcol.last
+      .row
+        .sevencol
         .threecol
           #sidebar
             {sidebar}
         .onecol.last
-      {thicks}
-        
         
       %br
       
