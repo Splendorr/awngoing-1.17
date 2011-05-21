@@ -95,11 +95,13 @@ a {
   #content p {
     margin-top: 1em; }
   #content blockquote {
-    background-color: #f9f9f9;
+    background-color: rgba(129, 127, 126, 0.1);
     margin-top: 1em;
     margin-left: 2em;
     margin-bottom: 1em;
-    padding: 1em; }
+    padding-top: 0em;
+    padding-left: 1em;
+    padding-right: 1em; }
 
 .blog {
   color: inherit; }
@@ -113,6 +115,9 @@ a {
   padding: 0.5em;
   border: solid grey 1px;
   border-bottom: solid grey 0.25em; }
+
+.perma {
+  font-size: 0.8em; }
 
 .footnote {
   font-size: 0.9em;
