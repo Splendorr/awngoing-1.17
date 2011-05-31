@@ -16,4 +16,4 @@ And, we shall see what boils to the -*top!*-
 
 
 :page_title: Something Resembling An Explanation
-:render_as: "Textile"
+:render_as: Textile
