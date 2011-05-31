@@ -1,0 +1,9 @@
+bq.. There are too many shoddy, unconsidered things in the world already. Given the widespread distribution of today’s digital production tools, it’s remarkably simple to make nearly anything, especially things claiming to critique design through the rejection of formal rigor. Making things well, making them beautifully, making them with craft, making them with an excess of effort, demonstrates a respect for one’s own labor and an expression of love for the world that dissolves perceived categories of work and pleasure.
+
+— "WHAT IS DESIGN? A Manifesto for the Gwangju Design Biennale 2011 by Project Projects":http://projectprojects.com/what-is-design/?view=thumb
+
+p. Via "Frank Chimero":http://blog.frankchimero.com/post/5881122838/there-are-too-many-shoddy-unconsidered-things-in
+
+:render_as: Textile
+:page_title: Work and Pleasure
+:kind: week1
