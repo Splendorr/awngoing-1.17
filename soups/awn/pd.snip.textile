@@ -1,15 +1,15 @@
-<p> These writings originated in <a href="http://www.houseofleaves.com/forum/showthread.php?6436-p()d-u()n-e()a-at-cataro-%97-Spins-Substratutions-Diff%E9rance-and-Quantum-Shifts">this thread.</a> All other participants have been cited without their permission, and some have been omitted or modified. It's difficult to convert a forum "conversation" into a coherent singular text, if that were even what I wanted to accomplish here. The longer these texts reside on this site, the further I intend for them to deviate from their origins. </p>
-<p>Bear all these things in mind. — <b>Splendorr</b></p>
+Mutation. Desperation. Des pairs.
+A totem arises.
+"Something Sir prizes, hm?
+Could perhaps Sir be engendered an enticementiddle?"
 
-<h2>{pd01.page_title}</h2><br />
-{pd01}
-<br />
-<h2>Then ducknerd said:</h2> <br />
-{pd02}
-<h2>After which I replied:</h2><br />
-{pd03}
+...
 
-:page_title: The Aggregated p()d
+... Standby ....
+
+... .... ... .... ... ....
+
+:page_title: p()d
 :author: Various
 :kind: Kind
 :render_as: Textile
