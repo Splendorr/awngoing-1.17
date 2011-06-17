@@ -8,6 +8,7 @@ Dir.chdir('public') do
     use Rack::Static, :urls => public_dirs, :root => 'public'
 end
 
+require 'backports'
 
 require "application"
 run Application.new
