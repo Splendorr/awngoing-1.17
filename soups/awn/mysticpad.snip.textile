@@ -12,7 +12,7 @@ bq.. "It is certain that, in nineteenth-century thought, a gap is produced follo
 
 Thus a gap remains to be filled, a {lt continuity} to be re-established...
 
-One can do no better than to indicate... the Leibnizian texts which deal, often conjointly, with the facts of the Chinese and the projects for a universal writing, and the multiple positions possible for writing and for the spoken... But perhaps we do not suffer from the {lt blindness} of the nineteenth century with regard to signs. Undoubtedly the fact that there are 'alphabetic' writersalso conspires strongly in hiding from us such essential aspects of the activity of writing."
+One can do no better than to indicate... the Leibnizian texts which deal, often conjointly, with the facts of the Chinese and the projects for a universal writing, and the multiple positions possible for writing and for the spoken... But perhaps we do not suffer from the {lt blindness} of the nineteenth century with regard to signs. Undoubtedly the fact that there are 'alphabetic' writers also conspires strongly in hiding from us such essential aspects of the activity of writing."
 
 h3. OfGr p75
 
@@ -23,6 +23,6 @@ h3. OfGr p76
 on Hebrew script
 
 :render_as: Textile
-:page_title: unfiltered bits
+:page_title: unbiltered fits
 :citation: blank
 :kind: blank

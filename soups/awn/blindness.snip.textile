@@ -1,0 +1,4 @@
+<span class="grey-8">blindness</span>
+
+:render_as: Textile
+:page_title: blindness

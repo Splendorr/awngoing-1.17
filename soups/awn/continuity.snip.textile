@@ -3,4 +3,4 @@ h2. Continuity.
 tktktk
 
 :render_as: Textile
-:page_title: Continuity
+:page_title: continuity
