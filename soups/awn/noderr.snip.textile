@@ -187,7 +187,7 @@ There will be no afterward.
 Even after I put the book down, I'm still trying to read and write it.
 
 Best to acknowledge that and join in willingly.
-To {l CHOOSE,choose} it, whether there's really any choice there or not.
+To {lt CHOOSE, choose} it, whether there's really any choice there or not.
 
 So I do.
 
