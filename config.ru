@@ -7,6 +7,7 @@
 # use Rack::Rewrite do
 #  rewrite %r{^/([^g/]*)$}, 'g/$1'  
 # end
+# 
 
 # loop through each folder in 'public' and mount it at '/subfolder-name', e.g. '/css' etc.
 Dir.chdir('public') do
