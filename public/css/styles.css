@@ -61,7 +61,8 @@ html {
 
 body {
   font-size: 13px;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-kerning: normal;
   line-height: 1.4em;
   padding-bottom: 24em;
   text-align: left; }
@@ -82,7 +83,8 @@ pre {
 
 #controls {
   margin-top: 2em;
-  margin-bottom: 4em; }
+  margin-bottom: 4em;
+  font-size: 0.8em; }
 
 #alighted {
   float: right; }
@@ -140,8 +142,10 @@ a {
   margin-top: 2em;
   margin-bottom: 4em;
   padding: 0.5em;
-  border: solid grey 1px;
-  border-bottom: solid grey 0.25em; }
+  font-size: 0.8em; }
+
+#details, #sidebar, #controls {
+  opacity: 0.5; }
 
 .perma {
   font-size: 0.8em; }
