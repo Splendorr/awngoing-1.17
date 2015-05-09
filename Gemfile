@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "1.8.7"
 
 # Vanilla itself.
 gem "vanilla"
