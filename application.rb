@@ -42,7 +42,7 @@ Application.configure do |config|
 
   # The snip to render on requests to "/". This defaults to "start"
   #
-  # config.root_snip = "some-other-snip"
+  config.root_snip = "g"
 
   # You can register additional renderer classes, to be used with snips
   # with the given extensions or 'render_as' attributes
