@@ -2,6 +2,29 @@
 /* ! Layout for desktop version
 /* ==============================
 
+.flex-video
+  position: relative
+  padding-top: 25px
+  padding-bottom: 67.5%
+  height: 0
+  margin-bottom: 16px
+  overflow: hidden
+
+  &.widescreen
+    padding-bottom: 56.34% 
+  &.vimeo
+    padding-top: 0
+
+  iframe,
+  object,
+  embed,
+  video
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
 $violet: #78278b
 
 .violet
@@ -55,6 +78,9 @@ pre
   //margin-left: 1em
   text-align: right
   
+.subtitle
+  font-size: 0.8em 
+  
 .separator
   margin-top: 0em
   margin-bottom: 4em
@@ -89,6 +115,8 @@ a
   padding-left: 2em
   color: #2e2e2e
   //font-size: 1.25em
+  font-size: 1.2em
+  line-height: 1.4em 
 
 
   p

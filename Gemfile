@@ -1,4 +1,11 @@
 source :rubygems
 
 # Vanilla itself.
-gem 'vanilla', '1.17'
+gem "vanilla"
+gem "pygments.rb"
+gem "redcarpet", "2.3.0"
+gem "haml", "~>3.1"
+gem "susy"
+gem "kramdown"
+gem "libxml-ruby", "~>2.8"
+gem "rake"

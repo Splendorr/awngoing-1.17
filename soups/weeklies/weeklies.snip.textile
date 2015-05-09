@@ -1,5 +1,6 @@
 <h1>Awngo.in/g/ Weeklies</h1>
 <br />
 {lt week1}
+{lt week2}
 
 :page_title: They Said, "Order, Order!"
