@@ -9,6 +9,9 @@ GEM
     libxml-ruby (2.8)
     parslet (1.2.0)
       blankslate (~> 2.0)
+    passenger (5.0.7)
+      rack
+      rake (>= 0.8.1)
     posix-spawn (0.3.11)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
@@ -42,6 +45,7 @@ DEPENDENCIES
   haml (~> 3.1)
   kramdown
   libxml-ruby (~> 2.8)
+  passenger
   pygments.rb
   rake
   redcarpet (= 2.3.0)

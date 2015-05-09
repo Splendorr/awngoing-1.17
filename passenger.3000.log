@@ -22,3 +22,28 @@ App 67208 stdout:
 [ 2015-05-09 00:09:41.9477 67181/0x7fff71d81310 age/Log/Main.cpp:436 ]: PassengerAgent logger shutdown finished
 [ 2015-05-09 00:09:41.9515 67179/0x7fff71d81310 age/Hel/Main.cpp:732 ]: Disconnecting long-running connections for process 67208, application /Users/simolinic/Dropbox/Programming/awngoing-1-17-reboot/public (development)#default
 [ 2015-05-09 00:09:42.0824 67179/0x7fff71d81310 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
+[ 2015-05-09 00:37:19.0642 80310/0x7fff71d81310 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2015-05-09 00:37:19.1223 80312/0x7fff71d81310 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2015-05-09 00:37:19.1243 80312/0x7fff71d81310 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2015-05-09 00:37:19.1387 80312/0x7fff71d81310 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 80312
+[ 2015-05-09 00:37:19.1483 80314/0x7fff71d81310 age/Log/Main.cpp:442 ]: Starting PassengerAgent logger...
+[ 2015-05-09 00:37:19.1497 80314/0x7fff71d81310 age/Log/Main.cpp:323 ]: PassengerAgent logger online, PID 80314
+App 80327 stdout: 
+App 80340 stdout: 
+[ 2015-05-09 00:37:33.4863 80312/0x106d6f000 Ser/Server.h:931 ]: [Client 3-1] Disconnecting client with error: client socket write error: Broken pipe (errno=32)
+
+[ 2015-05-09 00:38:19.6654 80314/0x1025ca000 age/Log/Main.cpp:349 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-05-09 00:38:19.6655 80314/0x7fff71d81310 age/Log/Main.cpp:411 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2015-05-09 00:38:19.6667 80312/0x106c69000 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-05-09 00:38:19.6656 80314/0x1025ca000 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-05-09 00:38:19.6674 80312/0x7fff71d81310 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-05-09 00:38:19.6680 80312/0x7fff71d81310 age/Hel/Main.cpp:732 ]: Disconnecting long-running connections for process 80340, application /Users/simolinic/Dropbox/Programming/awngoing-1-17-reboot/public (development)#default
+[ 2015-05-09 00:38:19.6685 80314/0x7fff71d81310 age/Log/Main.cpp:436 ]: PassengerAgent logger shutdown finished
+[ 2015-05-09 00:38:19.6698 80312/0x106c69000 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+[ 2015-05-09 00:38:19.6699 80312/0x106cec000 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2015-05-09 00:38:19.6699 80312/0x106d6f000 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2015-05-09 00:38:19.6699 80312/0x106df2000 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2015-05-09 00:38:19.6726 80312/0x106e75000 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2015-05-09 00:38:19.6750 80312/0x7fff71d81310 age/Hel/Main.cpp:732 ]: Disconnecting long-running connections for process 80340, application /Users/simolinic/Dropbox/Programming/awngoing-1-17-reboot/public (development)#default
+[ 2015-05-09 00:38:19.7956 80312/0x7fff71d81310 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
