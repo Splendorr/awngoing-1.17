@@ -18,6 +18,10 @@ Application.configure do |config|
   #
   # You should ensure that the system soup is at the bottom of this list
   # unless you really know what you are doing.
+
+
+  
+  # # ORIGINAL
   config.soups = [
     "soups/base",
     "soups/system"
@@ -34,6 +38,7 @@ Application.configure do |config|
   config.soups << "soups/awn"
   config.soups << "soups/weeklies"
   config.soups << "soups/dynasnips"
+
 
   # The snip to render on requests to "/". This defaults to "start"
   #
