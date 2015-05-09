@@ -10,3 +10,5 @@ gem "susy"
 gem "kramdown"
 gem "libxml-ruby", "~>2.8"
 gem "rake"
+
+gem "passenger"

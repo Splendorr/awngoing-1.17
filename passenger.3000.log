@@ -1,0 +1,24 @@
+[ 2015-05-09 00:08:57.7491 67175/0x7fff71d81310 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2015-05-09 00:08:57.7924 67179/0x7fff71d81310 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2015-05-09 00:08:57.7938 67179/0x7fff71d81310 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2015-05-09 00:08:57.8084 67179/0x7fff71d81310 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 67179
+[ 2015-05-09 00:08:57.8278 67181/0x7fff71d81310 age/Log/Main.cpp:442 ]: Starting PassengerAgent logger...
+[ 2015-05-09 00:08:57.8286 67181/0x7fff71d81310 age/Log/Main.cpp:323 ]: PassengerAgent logger online, PID 67181
+App 67194 stdout: 
+App 67208 stdout: 
+
+[ 2015-05-09 00:09:41.8922 67179/0x10a682000 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-05-09 00:09:41.8928 67179/0x7fff71d81310 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-05-09 00:09:41.8929 67179/0x7fff71d81310 age/Hel/Main.cpp:732 ]: Disconnecting long-running connections for process 67208, application /Users/simolinic/Dropbox/Programming/awngoing-1-17-reboot/public (development)#default
+
+[ 2015-05-09 00:09:41.9327 67181/0x10a58d000 age/Log/Main.cpp:349 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-05-09 00:09:41.9444 67181/0x7fff71d81310 age/Log/Main.cpp:411 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-05-09 00:09:41.9456 67179/0x10a788000 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2015-05-09 00:09:41.9457 67179/0x10a80b000 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2015-05-09 00:09:41.9452 67181/0x10a58d000 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-05-09 00:09:41.9467 67179/0x10a682000 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+[ 2015-05-09 00:09:41.9467 67179/0x10a705000 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2015-05-09 00:09:41.9472 67179/0x10a88e000 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2015-05-09 00:09:41.9477 67181/0x7fff71d81310 age/Log/Main.cpp:436 ]: PassengerAgent logger shutdown finished
+[ 2015-05-09 00:09:41.9515 67179/0x7fff71d81310 age/Hel/Main.cpp:732 ]: Disconnecting long-running connections for process 67208, application /Users/simolinic/Dropbox/Programming/awngoing-1-17-reboot/public (development)#default
+[ 2015-05-09 00:09:42.0824 67179/0x7fff71d81310 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
