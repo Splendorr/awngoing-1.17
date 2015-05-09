@@ -45,7 +45,7 @@ class Search < Dynasnip
               insert(start + term.length, "</span>").
               insert(start, %{<span class="match">}).strip
           end
-          %{<li class="search_result">{link_to #{snip}} &rarr; <i>#{contexts.join(" &hellip; ")}</i></li>}
+          %{<li class="search_result">{link_to(#{snip})} &rarr; <i>#{contexts.join(" &hellip; ")}</i></li>}
         end.join + "</ol>"
       else
         %{<p>No matches for "#{term}"</p>}

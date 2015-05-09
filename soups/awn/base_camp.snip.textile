@@ -4,3 +4,4 @@ bq. The "Base Camp" of a mountain is an area used for staging an attempt at the 
 
 :page_title: Base Camp
 :render_as: Textile
+:updated_at: Mon May 30 21:28:36 -0400 2011

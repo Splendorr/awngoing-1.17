@@ -4,3 +4,4 @@ After the formal Saturday dinners, we would either have a group musical event or
 :title: Rise of Endymion, p. 37
 :author: Dan Simmons
 :citation: Rise of Endymion
+:updated_at: Mon May 30 21:28:36 -0400 2011

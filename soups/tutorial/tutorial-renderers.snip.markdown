@@ -75,3 +75,5 @@ It is passed a string (either the selected snip's "content" attribute, or some o
 There are a number of other methods which can be overridden by custom renderers, but these are beyond the scope of this tutorial; the best way to learn is to look at the set of provided renderers (such as the Erb and Haml ones) and work from there.
 
 {tutorial-links}
+
+:updated_at: Thu May 05 21:57:45 -0400 2011

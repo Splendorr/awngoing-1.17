@@ -83,17 +83,13 @@ pre {
 
 #controls {
   margin-top: 2em;
-  margin-bottom: 4em;
-  font-size: 0.8em; }
+  margin-bottom: 4em; }
 
 #alighted {
   float: right; }
 
 #sidebar {
   text-align: right; }
-
-.subtitle {
-  font-size: 0.8em; }
 
 .separator {
   margin-top: 0em;
@@ -121,7 +117,7 @@ a {
   font-size: 1.2em;
   line-height: 1.4em; }
   #content p {
-    margin-top: 1em; }
+    margin-top: 1.4em; }
   #content blockquote {
     background-color: rgba(129, 127, 126, 0.1);
     margin-top: 1em;
@@ -141,11 +137,22 @@ a {
 #details {
   margin-top: 2em;
   margin-bottom: 4em;
-  padding: 0.5em;
+  padding: 0.5em; }
+
+#details, .subtitle, #controls {
+  font-size: 0.9em; }
+
+header h1 {
+  font-size: 2em; }
+header .post-details {
   font-size: 0.8em; }
 
-#details, #sidebar, #controls {
-  opacity: 0.5; }
+#details, #sidebar, #controls, #thicks {
+  opacity: 0.2;
+  transition: all 0.5s ease; }
+  #details:hover, #sidebar:hover, #controls:hover, #thicks:hover {
+    opacity: 1;
+    transition: all 0.5s ease; }
 
 .perma {
   font-size: 0.8em; }

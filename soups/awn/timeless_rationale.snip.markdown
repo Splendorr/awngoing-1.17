@@ -26,3 +26,4 @@ Just because Timeless focuses on content, doesn’t mean there’s no focus on t
 This gives me the perfect flexibilty: New readers can browser and explore the content like it’s a wiki, while returning readers can easily see if there’s any updated content. If you want to be notifed about further updates, you can simply subscribe to the feed, just like a normal blog.
 
 :render_as: Markdown
+:updated_at: Mon May 30 21:28:36 -0400 2011

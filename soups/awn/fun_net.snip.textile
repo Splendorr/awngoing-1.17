@@ -36,3 +36,5 @@ own
 
 :render_as: Textile
 :page_title: The Fun Net Is Sizing   
+:kind: log
+:updated_at: Mon May 30 21:28:36 -0400 2011

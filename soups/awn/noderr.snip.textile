@@ -194,3 +194,4 @@ So I do.
 :render_as: Textile
 :page_title: I'm No Derrida
 :kind: Journal
+:updated_at: Fri Aug 12 12:25:51 -0400 2011

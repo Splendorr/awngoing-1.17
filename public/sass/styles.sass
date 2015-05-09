@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, h6
 
 p
   font-size: 1em
+  // padding-bottom: 0
 
 pre
   font-family: inherit
@@ -65,7 +66,6 @@ pre
 #controls
   margin-top: 2em
   margin-bottom: 4em
-  font-size: .8em
   
 #alighted
   float: right
@@ -79,9 +79,6 @@ pre
   //display: block
   //margin-left: 1em
   text-align: right
-  
-.subtitle
-  font-size: 0.8em 
   
 .separator
   margin-top: 0em
@@ -122,7 +119,8 @@ a
 
 
   p
-    margin-top: 1em
+    // margin-top: 1em
+    margin-top: 1.4em
     //font-size: 1.25em
     //line-height: 1.5em
 
@@ -155,10 +153,23 @@ a
   padding: 0.5em
   // border: solid grey 1px
   // border-bottom: solid grey 0.25em
-  font-size: .8em
   
-#details, #sidebar, #controls
-  opacity: .5
+#details, .subtitle, #controls
+  font-size: .9em
+  
+header
+  h1
+    font-size: 2em
+  .post-details
+    font-size: 0.8em
+  
+#details, #sidebar, #controls, #thicks
+  opacity: .2
+  transition: all .5s ease
+  
+  &:hover
+    opacity: 1  
+    transition: all .5s ease
 
 .perma
   font-size: .8em
