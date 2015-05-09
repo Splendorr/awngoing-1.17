@@ -65,4 +65,4 @@ So what?
 
 :render_as: Textile
 :page_title: Journal 02
-:updated_at: Mon May 30 23:02:26 -0400 2011
+

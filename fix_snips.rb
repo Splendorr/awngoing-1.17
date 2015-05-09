@@ -1,4 +1,5 @@
 require "time"
+require "date"
 
 snips = Dir["soups/**/*"].reject { |p| File.directory?(p) }.reject { |p| p =~ /\.rb$/ }.reject { |p| File.read(p) =~ /:updated_at/ }
 
@@ -6,7 +7,10 @@ def latest_git_commit(path)
   details = `git log -- #{path}`
   date_line = details.split("\n").find { |l| l =~ /^Date:/ }
   if date_line
-    Time.parse(date_line.gsub("Date:", "").strip)
+    # Time.parse(date_line.gsub("Date:", "").strip)
+    date_line = Time.parse(date_line.gsub("Date:", "").strip)
+    # DateTime.parse(date_line.gsub("Date:", "").strip)
+    # Time.parse(date_line.gsub("Date:", ""))
   end
 end
 

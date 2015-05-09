@@ -7,4 +7,4 @@ p. Via "Frank Chimero":http://blog.frankchimero.com/post/5804687169/our-time-is-
 :render_as: Textile
 :page_title: Our Time Is A Time Of Erasing The Lines
 :kind: week1
-:updated_at: Mon May 30 23:02:26 -0400 2011
+

@@ -7,4 +7,4 @@ p. Via "Frank Chimero":http://blog.frankchimero.com/post/5881122838/there-are-to
 :render_as: Textile
 :page_title: Work and Pleasure
 :kind: week1
-:updated_at: Mon May 30 23:02:26 -0400 2011
+

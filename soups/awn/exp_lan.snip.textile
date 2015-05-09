@@ -17,4 +17,4 @@ And, we shall see what boils to the -*top!*-
 
 :page_title: Something Resembling An Explanation
 :render_as: Textile
-:updated_at: Mon May 30 21:28:36 -0400 2011
+

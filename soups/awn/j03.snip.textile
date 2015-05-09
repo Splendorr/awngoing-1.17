@@ -84,4 +84,4 @@ There. Now _that's_ a question.
 
 :render_as: Textile
 :page_title: Journal 03
-:updated_at: Mon May 30 21:28:36 -0400 2011
+
